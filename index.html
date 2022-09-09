@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Fuentes de letra-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Combo&family=Luckiest+Guy&display=swap"
+      rel="stylesheet"
+    />
+    <!--Estilo css-->
+    <link href="/style.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <!--Pestaña del navegador-->
+    <title>Pagina Web</title>
+  </head>
+  <body class="cuerpo">
+    <!--Encabezado-->
+    <header>
+      <!--Barra de navegacion-->
+      <nav class="navbar navbar-expand-lg" style="background-color: #bae2ff">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Logo</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#carrusel">Conocenos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#mapa">Ubicación</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="acercade.html">Acerca de</a>
+              </li>
+            </ul>
+            <span class="navbar-text"> Diana Jazmín LE </span>
+          </div>
+        </div>
+      </nav>
+      <div
+        class="cover d-flex justify-content-center align-items-center flex-column"
+      >
+        <h1>DISEÑOS DIANA</h1>
+        <p>Diseñando con el corazón</p>
+        <button class="btn btn-primary">Novedades</button>
+      </div>
+    </header>
+
+    <!--Fuera del encabezado-->
+    <!--Imagenes de inicio-->
+    <section>
+      <div class="container mt-5 mb-5">
+        <div class="row justify-content-center">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+            <div class="card">
+              <div
+                title="Dispositivos con invitaciones digitales"
+                class="cover cover-small"
+                style="background-image: url(/img/invitaciones_digitales.jpg)"
+              ></div>
+              <div class="card-body">
+                <h5 class="card-title">INVITACIONES DIGITALES</h5>
+                <p class="card-text">
+                  Envia tus invitaciones por redes sociales y con la mejor
+                  calidad.
+                </p>
+                <a href="#" class="btn btn-primary">Ver más</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+            <div class="card">
+              <div
+                title="Frasco con etiqueta"
+                class="cover cover-small"
+                style="background-image: url(/img/Etiquetas.jpg)"
+              ></div>
+              <div class="card-body">
+                <h5 class="card-title">ETIQUETAS PERSONALIZADAS</h5>
+                <p class="card-text">
+                  Etiquetas para recuerditos de tus fiestas a tu gusto.
+                </p>
+                <a href="#" class="btn btn-primary">Ver más</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+            <div class="card">
+              <div
+                title="Carteles coloridos"
+                class="cover cover-small"
+                style="background-image: url(/img/Carteles.jpg)"
+              ></div>
+              <div class="card-body">
+                <h5 class="card-title">DISEÑO DE CARTELES</h5>
+                <p class="card-text">
+                  Da a conocer tu negocio con los carteles más llamativos.
+                </p>
+                <a href="#" class="btn btn-primary">Ver más</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Formulario-->
+    <section>
+      <div class="container mt-5 mb-5">
+        <div class="row">
+          <img
+            src="/img/undraw_website_setup_re_d4y9.svg"
+            alt="Persona ilustrada corriendo"
+          />
+
+          <div class="col-12 col-sm-6">
+            <h3>¡DISEÑANDO DIA A DIA!</h3>
+            <p>
+              Envianos tus ideas por correo electronico y nos contactamos
+              contigo.
+            </p>
+            <a href="Ir a mapa">Estamos ubicados en...</a>
+          </div>
+        </div>
+        <form action="">
+          <label for="email">Correo electronico</label>
+          <div class="d-flex">
+            <div class="flex-fill mr-2">
+              <input type="email" id="email" class="form-control" />
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!--Carrusel-->
+    <section>
+      <div class="container mt-5 mb-5" id="carrusel">
+        <div class="product-stripe">
+          <div class="stripe-container">
+            <div class="card">
+              <div
+                title="Perro con lentes en una computadora"
+                class="cover cover-small"
+                style="
+                  background-image: url(/img/rsz_cookie-the-pom-gysmaocsdqs-unsplash.jpg);
+                "
+              ></div>
+              <div class="card-body">
+                <h5 class="card-title">NOVEDADES DIGITALES</h5>
+                <span class="badge text-bg-info">Informacion</span>
+              </div>
+            </div>
+            <div class="card">
+              <div
+                title="Paleta de acuarelas"
+                class="cover cover-small"
+                style="
+                  background-image: url(/img/rsz_jen-theodore-foxl4abd2sa-unsplash.jpg);
+                "
+              ></div>
+              <div class="card-body">
+                <h5 class="card-title">USO DE COLORES DE TU AGRADO</h5>
+                <span class="badge text-bg-info">Informacion</span>
+              </div>
+            </div>
+            <div class="card">
+              <div
+                title="invitaciones para boda"
+                class="cover cover-small"
+                style="
+                  background-image: url(/img/rsz_ricardo-moura-skqtl_s7-ne-unsplash.jpg);
+                "
+              ></div>
+              <div class="card-body">
+                <h5 class="card-title">INVITACIONES TRADICIONALES</h5>
+                <span class="badge text-bg-info">Informacion</span>
+              </div>
+            </div>
+            <div class="card">
+              <div
+                title="Crayolas"
+                class="cover cover-small"
+                style="
+                  background-image: url(/img/rsz_sonya-lynne-siazohmqsmm-unsplash.jpg);
+                "
+              ></div>
+              <div class="card-body">
+                <h5 class="card-title">DIBUJOS PARA NIÑOS</h5>
+                <span class="badge text-bg-info">Informacion</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Mapa-->
+    <section>
+      <div class="container mt-5 mb-5" id="mapa">
+        <h4>Aqui nos vemos...</h4>
+        <p>Presa Ixtapango 107, Las Presitas del Consuelo, 37207 León, Gto.</p>
+        <div class="responsive-iframe">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.5161836398975!2d-101.64367288490357!3d21.17164404748257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842bb935eefaa333%3A0x76e96eceed22ecd3!2sPresa%20Ixtapango%20107%2C%20Las%20Presitas%20del%20Consuelo%2C%2037207%20Le%C3%B3n%2C%20Gto.!5e0!3m2!1ses!2smx!4v1662698570696!5m2!1ses!2smx"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
+
+
+
+<!--Pagina web hecha por Lara Esparza Diana Jazmin-->
+<!--Basada en el video de youtube de a continuacion-->
+<!--https://www.youtube.com/watch?v=TC8bT7zTdoE-->
